@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this protocol or the scripts, please cite it as below."
+title: "A protocol for verifying ecological analysis code developed with AI assistance"
+abstract: >-
+  A protocol for verifying scientific analysis code and for reporting that
+  verification, with the scripts and prompts used to carry it out. Part A
+  establishes that reported numbers came from a documented run that does not
+  depend on the session, the machine, or the moment it was produced. Part B
+  enumerates every transformation on the path to a reported number and checks
+  each one. Includes two R scripts for running and comparing verification runs,
+  and two prompts for the steps that may be delegated to a language model.
+type: software
+license: CC-BY-4.0
+keywords:
+  - reproducibility
+  - code verification
+  - scientific computing
+  - large language models
+  - ecology
+  - R
+authors:
+  - family-names: Fujiwara
+    given-names: Masami
+    affiliation: "Department of Ecology and Conservation Biology, Texas A&M University"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: "1.0.0"
+date-released: "2026-09-14"
+# repository-code: "https://github.com/USER/REPO"
+
+# After the first Zenodo release, uncomment and fill in. The concept DOI
+# resolves to the latest version and is the one to cite in most cases; the
+# version DOI identifies this release specifically.
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"
+#     description: "Concept DOI, all versions"
+#   - type: doi
+#     value: "10.5281/zenodo.YYYYYYY"
+#     description: "DOI for version 1.0.0"
